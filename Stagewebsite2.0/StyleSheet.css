@@ -4,7 +4,7 @@
 }
 #Links{
     background-color: deepskyblue;
-    width: 100px;
+    width: 8%;
     height: 100%;
     position:absolute;
     z-index: 0;
@@ -12,14 +12,16 @@
 #Menu{
     background-color: cornflowerblue;
     width: 100%;
-    height: 100px;
+    height: 12%;
     position: absolute;
     z-index: 1;
+    color: white;
+    
 }
 #Content{
-    top:110px;
-    left:110px;
+    top:12%;
+    left:8%;
     position: absolute;
-    width:100%;
-    height:100%;
+    width:90%;
+    height:90%;
 }

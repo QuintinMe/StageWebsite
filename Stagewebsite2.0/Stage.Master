@@ -5,19 +5,20 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
+    
     <link rel="StyleSheet" href="StyleSheet.css" runat="server"/>
 </head>
 <body>
     <form id="form1" runat="server">
-    <div id="Content">
+     <div id="Links"></div>
+     <div id="Menu">
+        <h1><asp:ContentPlaceHolder ID="head" runat="server">   
+    </asp:ContentPlaceHolder></h1>
+     </div>
+     <div id="Content">
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        
         </asp:ContentPlaceHolder>
     </div>
-    </form>
-    <div id="Links"></div>
-    <div id="Menu"></div>
+    </form>   
 </body>
 </html>
