@@ -15,8 +15,9 @@
     height: 12%;
     position: absolute;
     z-index: 1;
-    color: white;
-    
+    }
+#Head1{
+     color: white;
 }
 #Content{
     top:12%;
@@ -25,3 +26,31 @@
     width:90%;
     height:90%;
 }
+
+
+
+.Main_Menu
+    {
+        width: 100px;
+        background-color: cornflowerblue;
+        color: cyan;
+        text-align: center;
+        height: 30px;
+        line-height: 30px;
+        margin-right: 5px;
+    }
+    .Level_Menu
+    {
+        width: 110px;
+        background-color: cyan;
+        color: #0026ff;
+        text-align: center;
+        height: 30px;
+        line-height: 30px;
+        margin-top: 5px;
+    }
+    .selected
+    {
+        background-color: #40c7dc;
+        color: #0026ff;
+    }

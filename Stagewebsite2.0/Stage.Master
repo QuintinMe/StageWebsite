@@ -4,16 +4,26 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
-    
+    <title>StageWebsite</title>
     <link rel="StyleSheet" href="StyleSheet.css" runat="server"/>
 </head>
 <body>
     <form id="form1" runat="server">
      <div id="Links"></div>
      <div id="Menu">
-        <h1><asp:ContentPlaceHolder ID="head" runat="server">   
-    </asp:ContentPlaceHolder></h1>
+
+         <asp:SiteMapDataSource ID="smds1" runat="server"/>
+                    <!--<asp:TreeView ID="TreeView1" runat="server" DataSourceID="smds1"></asp:TreeView>-->
+         <asp:Menu ID="Menu1" runat="server" DataSourceID="smds1" Orientation="Horizontal"
+            OnMenuItemDataBound="OnMenuItemDataBound" OnMenuItemClick="Menu_MenuItemClick">
+            <LevelMenuItemStyles>
+                <asp:MenuItemStyle CssClass="Main_Menu" />
+                <asp:MenuItemStyle CssClass="Level_Menu" />
+            </LevelMenuItemStyles>
+</asp:Menu>
+   
+                 <div id="Head1"><h1><asp:ContentPlaceHolder ID="head" runat="server">   
+    </asp:ContentPlaceHolder></h1></div>
      </div>
      <div id="Content">
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
