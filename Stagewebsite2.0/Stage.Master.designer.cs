@@ -31,15 +31,6 @@ namespace Stagewebsite2._0 {
         protected global::System.Web.UI.WebControls.SiteMapDataSource smds1;
         
         /// <summary>
-        /// TreeView1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TreeView TreeView1;
-        
-        /// <summary>
         /// Menu1 control.
         /// </summary>
         /// <remarks>
