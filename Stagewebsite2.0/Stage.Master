@@ -9,11 +9,10 @@
 </head>
 <body>
     <form id="form1" runat="server">
-     <div id="Links"></div>
-     <div id="Menu">
+    <div id="Menu">
 
          <asp:SiteMapDataSource ID="smds1" runat="server"/>
-                    <!--<asp:TreeView ID="TreeView1" runat="server" DataSourceID="smds1"></asp:TreeView>-->
+         <asp:SiteMapPath runat="server"></asp:SiteMapPath>          
          <asp:Menu ID="Menu1" runat="server" DataSourceID="smds1" Orientation="Horizontal"
             OnMenuItemDataBound="OnMenuItemDataBound" OnMenuItemClick="Menu_MenuItemClick">
             <LevelMenuItemStyles>

@@ -2,13 +2,7 @@
     padding:0px;
     margin:0px;
 }
-#Links{
-    background-color: deepskyblue;
-    width: 8%;
-    height: 100%;
-    position:absolute;
-    z-index: 0;
-}
+
 #Menu{
     background-color: cornflowerblue;
     width: 100%;
@@ -21,19 +15,17 @@
 }
 #Content{
     top:12%;
-    left:8%;
+    left: 2%;
     position: absolute;
     width:90%;
     height:90%;
 }
 
-
-
 .Main_Menu
     {
-        width: 100px;
-        background-color: cornflowerblue;
-        color: cyan;
+        width: 120px;
+        background-color: white;
+        color: blue;
         text-align: center;
         height: 30px;
         line-height: 30px;
@@ -41,8 +33,8 @@
     }
     .Level_Menu
     {
-        width: 105%;
-        background-color: cyan;
+        width: 130px;
+        background-color: lightblue;
         color: #0026ff;
         text-align: center;
         height: 30px;
@@ -51,6 +43,15 @@
     }
     .selected
     {
-        background-color: #40c7dc;
+        background-color: lightblue;
         color: #0026ff;
     }
+   
+#form_login{
+    width: 700px;
+    height: 600px;
+    padding: 10px;
+    
+
+
+}
