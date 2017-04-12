@@ -5,24 +5,20 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>StageWebsite</title>
+    <link rel="" href="https://fonts.googleapis.com/css?family-Work+Sans:300" />
     <link rel="StyleSheet" href="StyleSheet.css" runat="server"/>
 </head>
 <body>
     <form id="form1" runat="server">
-    <div id="Menu">
-
-         <asp:SiteMapDataSource ID="smds1" runat="server"/>
-         <asp:SiteMapPath runat="server"></asp:SiteMapPath>          
-         <asp:Menu ID="Menu1" runat="server" DataSourceID="smds1" Orientation="Horizontal"
-            OnMenuItemDataBound="OnMenuItemDataBound" OnMenuItemClick="Menu_MenuItemClick">
-            <LevelMenuItemStyles>
-                <asp:MenuItemStyle CssClass="Main_Menu" />
-                <asp:MenuItemStyle CssClass="Level_Menu" />
-            </LevelMenuItemStyles>
-</asp:Menu>
-   
-                 <div id="Head1"><h1><asp:ContentPlaceHolder ID="head" runat="server">   
-    </asp:ContentPlaceHolder></h1></div>
+    <div id="Menu">   
+    <div id="Head1"><h1><asp:ContentPlaceHolder ID="head" runat="server">   
+    </asp:ContentPlaceHolder></h1></div>        
+            <ul>                
+                <li><a href="/Home.aspx">Home</a></li>                     
+                <li><a href="/Forms/Registreren.aspx">Registreren</a></li>
+                <li><a href="/Forms/Login.aspx">Login</a></li>
+                <li><a href="#">Stageplekken</a></li>               
+            </ul>        
      </div>
      <div id="Content">
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
