@@ -64,6 +64,7 @@
     <Content Include="Forms\Login.aspx" />
     <Content Include="Forms\Profiel.aspx" />
     <Content Include="Forms\Registreren.aspx" />
+    <Content Include="Forms\Stageplekken.aspx" />
     <Content Include="Stage.Master" />
     <Content Include="packages.config" />
     <Content Include="Web.sitemap" />
@@ -100,6 +101,13 @@
     </Compile>
     <Compile Include="Forms\Registreren.aspx.designer.cs">
       <DependentUpon>Registreren.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Stageplekken.aspx.cs">
+      <DependentUpon>Stageplekken.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Stageplekken.aspx.designer.cs">
+      <DependentUpon>Stageplekken.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>

@@ -17,7 +17,7 @@
                 <li><a href="/Home.aspx">Home</a></li>                     
                 <li><a href="/Forms/Registreren.aspx">Registreren</a></li>
                 <li><a href="/Forms/Login.aspx">Login</a></li>
-                <li><a href="#">Stageplekken</a></li>               
+                <li><a href="/Forms/Stageplekken.aspx">Stageplekken</a></li>               
             </ul>        
      </div>
      <div id="Content">
