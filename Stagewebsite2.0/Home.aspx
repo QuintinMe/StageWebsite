@@ -6,9 +6,9 @@
     <div id="groet"><h1>Welkom op de home pagina</h1></div>
     <br /> 
     <br />  
-    Op deze site kommen stage platsen te staan.
+    Op deze site komen stage plaatsen te staan.
     <br />
-    Login om veder te gaan of registreer als u dat nog niet heeft gedaan.
+    Login om verder te gaan of registreer als u dat nog niet heeft gedaan.
     <br />
-    gebruik de navigater om door te gaan
+    Gebruik de navigator om door te gaan
 </asp:Content>

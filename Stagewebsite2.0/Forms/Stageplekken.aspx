@@ -3,16 +3,16 @@
     Stageplekken
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-hier kommen de stage plekken
+Hier komen de stage plekken
     <br />
     <br />
     <br />
     <div id="Stageplaats"><h5>Voorbeeld van een stageplaats</h5><br />
         <ul>
-        <li>bedrijfnaam: Leeuwenborgh</li>
-        <li>richting: ICT beheer(der) / medewerker</li>
-        <li>niveau: 3 / 4</li>
-         <li>max aantal plaatse: 5</li>
+        <li>Bedrijfnaam: Leeuwenborgh</li>
+        <li>Richting: ICT beheer(der) / medewerker</li>
+        <li>Niveau: 3 / 4</li>
+         <li>Max aantal plaatsen: 5</li>
         </ul>
     </div>
 </asp:Content>
