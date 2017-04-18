@@ -4,10 +4,15 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div id="form_login">
-            Gebruikersnaam: <input type="text" id="username" placeholder="Voer gebruikersnaam in"/> <br />
-            Wachtwoord: <input type="password" id="password" placeholder="Voer wachtwoord in"/> <br />
-            Email: <input type="text" id="email"  placeholder="Email adres"/><br />
-            <input type="button" id="login-btn" value="Registreer" />
+        <asp:Label ID="Lbl_Username" runat="server" Text="Gebruikersnaam:"></asp:Label>        
+        <asp:TextBox ID="TextBox_Username" runat="server"></asp:TextBox><asp:RegularExpressionValidator ID="Validator_" ControlToValidate="TextBox_Username" runat="server" ErrorMessage="RegularExpressionValidator"></asp:RegularExpressionValidator>
+         <br />
+        <asp:Label ID="Lbl_Password" runat="server" Text="Wachtwoord: "></asp:Label>
+        <asp:TextBox ID="TextBox_Password" runat="server"></asp:TextBox><asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ErrorMessage="RegularExpressionValidator"></asp:RegularExpressionValidator>
+        <br />
+        <asp:Button ID="Btn_Register" runat="server" Text="Registreer" />
+        <br />        
     </div>
     
 </asp:Content>
+
