@@ -3,5 +3,9 @@
     &nbsp;&nbsp;Login
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    Login
+<br /> <asp:Label ID="Label_Gebruikersnaam" runat="server" Text="Gebruikersnaam:"></asp:Label>
+    <asp:TextBox ID="TextBox_Gebruikersnaam" runat="server"></asp:TextBox> <br /><br />
+    <asp:Label ID="Label_Wachtwoord" runat="server" Text="Wachtwoord :"></asp:Label>
+    <asp:TextBox ID="TextBox_Wachtwoord" runat="server"></asp:TextBox> <br /><br />
+    <asp:Button ID="Button_Login" runat="server" Text="Log in" />
 </asp:Content>
