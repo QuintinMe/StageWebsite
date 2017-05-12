@@ -8,7 +8,7 @@
         <asp:TextBox ID="TextBox_Username" runat="server"></asp:TextBox><asp:RegularExpressionValidator ID="Validator_" ControlToValidate="TextBox_Username" runat="server" ErrorMessage="RegularExpressionValidator"></asp:RegularExpressionValidator>
          <br />
         <asp:Label ID="Lbl_Password" runat="server" Text="Wachtwoord: "></asp:Label>
-        <asp:TextBox ID="TextBox_Password" runat="server"></asp:TextBox><asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ErrorMessage="RegularExpressionValidator"></asp:RegularExpressionValidator>
+        <asp:TextBox ID="TextBox_Password" runat="server"></asp:TextBox><asp:RegularExpressionValidator ID="RegularExpressionValidator2" ControlToValidate="TextBox_Password"   runat="server" ErrorMessage="RegularExpressionValidator"></asp:RegularExpressionValidator>
         <br />
         <asp:Button ID="Btn_Register" runat="server" Text="Registreer" />
         <br />        
